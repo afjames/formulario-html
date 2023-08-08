@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #3a68b7;
+}
+
+* {
+    margin: 0;
+    padding: 0;        
+}
+
+body {
+    background-color: var(--primary-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.form-container {
+    background-color: white;
+    width: 90%;
+    height: 18em;
+    min-width: 28.123em;
+    max-width: 35em;
+    border-radius: 2px;    
+     
+}
+
+.form {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 1.5em;
+    margin-right: 1em;
+}
+
+.title {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 1.5em;
+    padding: 1em 0 .5em;    
+}
+
+.label {
+    margin-bottom: 1em;;
+    text-transform: uppercase;
+    font-size: .75em;
+}
+
+.input {
+    border: 2px solid transparent;
+    border-bottom-color: var(--primary-color);
+    margin-bottom: 1em;
+    padding: .5em;     
+}
+
+.input:focus {
+    outline: none;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.forgot-password {
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;    
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 1em;
+    width: fit-content;
+    font-size: 1em;
+}
+
+.register-container a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.btn {
+    padding: .5em;
+    width: 6em;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    border: none;
+    color: white; 
+}

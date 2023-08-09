@@ -24,8 +24,17 @@ body {
     height: 18em;
     min-width: 28.123em;
     max-width: 35em;
-    border-radius: 2px;    
+    border-radius: 2px; 
      
+}
+
+.form-container-register {
+    background-color: white;
+    width: 90%;
+    height: 25em;
+    min-width: 28.123em;
+    max-width: 35em;
+    border-radius: 2px;
 }
 
 .form {
@@ -92,9 +101,10 @@ body {
 
 .btn {
     padding: .5em;
-    width: 6em;
+    width: fit-content;
     text-transform: uppercase;
     background-color: var(--primary-color);
     border: none;
-    color: white; 
+    color: white;
+    border-radius: 5px; 
 }
